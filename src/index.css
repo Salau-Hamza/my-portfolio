@@ -6,7 +6,23 @@
   font-family: "Amatic SC", cursive;
   font-weight: 700;
 }
+#menu-toggle:checked + #menu {
+  display: block;
+}
+.times {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
 
+.svg{
+  margin: 5rem 0;
+  width: 230px;
+  height: auto;
+}
+.webi {
+  margin-top: -5rem;
+  padding-bottom: 1rem;
+}
 .prose img {
   margin-left: auto;
   margin-right: auto;
@@ -14,5 +30,17 @@
 }
 
 .home-name {
-  font-size: 150px;
+  font-size: 10px;
+}
+
+
+.menu-link {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: none;
+}
+.home-img {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
 }
