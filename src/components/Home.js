@@ -1,6 +1,6 @@
 import React from "react"
-import Typical from "react-typical"
-import fourth from "../fourth.jpg"
+//import Typical from "react-typical"
+//import fourth from "../fourth.jpg"
 import design from "../design.svg"
 
 export default function Home() {
